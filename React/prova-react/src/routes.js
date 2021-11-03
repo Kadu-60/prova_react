@@ -6,6 +6,7 @@ import Blocks from "./pages/Blocks/Blocks"
 import Cards from "./pages/Cards/Cards"
 import Formulario from "./pages/Formulario/Formulario"
 import Pricing from "./pages/Pricing/Pricing"
+import Teste from "./pages/Teste/Teste"
 
 export const Routes = () => {
     return (
@@ -16,6 +17,7 @@ export const Routes = () => {
             <Route path="/blocks" component={Blocks}/>
             <Route path="/forms" component={Formulario}/>
             <Route path="/pricing" component={Pricing}/>
+            <Route path="/teste" component={Teste}/>
         </Switch>
     )
 }

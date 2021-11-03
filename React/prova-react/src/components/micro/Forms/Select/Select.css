@@ -1,0 +1,10 @@
+.select-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.select-container select {
+    padding: 0 5px;
+    height: 35px;
+}

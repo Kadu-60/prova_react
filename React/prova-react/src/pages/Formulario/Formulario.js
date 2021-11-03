@@ -3,6 +3,7 @@ import './Formulario.css'
 import Input from '../../components/micro/Forms/Input/Input'
 import FormDefault from '../../components/macro/FormDefault/FormDefault'
 import Button from '../../components/micro/Button/Button'
+import Select from '../../components/micro/Forms/Select/Select'
 
 function Formulario(props) {
 
@@ -49,18 +50,14 @@ function Formulario(props) {
                             <Input label="City" type="text"/>
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="inputState" class="input__label">State</label>
-                                <select id="inputState" class="form-control input-style">
-                                <option selected>Choose...</option>
-                                <option>...</option>
-                                </select>
+                               <Select label="State"/>
                             </div>
                             <div class="form-group col-md-2">
                             <Input label="Zip" type="text"/>
                             </div>
                         </div>
                         <Input label="Check me out" type="checkbox"/>
-                        <Button label="Submit" onclick="submit" class="btn btn-primary"/>
+                        <Button label="Sign in" onclick="submit" class="btn btn-primary"/>
                         
                     </FormDefault>
                         

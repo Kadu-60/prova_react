@@ -1,5 +1,6 @@
 import Footer from './components/template/Footer/Footer';
 import Header from './components/template/Header/Header';
+import Teste from './pages/Teste/Teste';
 import './App.css';
 import {
   BrowserRouter as Router
@@ -9,11 +10,11 @@ import { Routes } from './routes'
 function App() {
   return (
     <>
-    <Header/>
+    <Teste>
     <Router>
         <Routes/>
       </Router>
-    <Footer/>
+    <Footer/></Teste>
     </>
   );
 }

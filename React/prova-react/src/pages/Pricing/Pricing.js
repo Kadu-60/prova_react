@@ -7,7 +7,15 @@ function Pricing(props) {
 
     return(
         <>
-        <div className="container">
+         <div class="container-fluid content-top-gap">
+
+          
+          <nav aria-label="breadcrumb" class="mb-4">
+            <ol class="breadcrumb my-breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Pricing Tables</li>
+            </ol>
+          </nav>
         <div class="card card_border mb-5">
             <div class="cards__heading">
               <h3>Pricing Tables -<span> Version 1</span></h3>
