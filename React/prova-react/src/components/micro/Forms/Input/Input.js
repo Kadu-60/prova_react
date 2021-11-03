@@ -7,7 +7,8 @@ function Input(props) {
         <>
         <div className="input-container">
             <label>{props.label}:</label>
-            <input type={props.type}/>
+            <input type={props.type} placeholder={props.placeholder}/>
+            <small >{props.small}</small>
         </div>
         </>
     )
