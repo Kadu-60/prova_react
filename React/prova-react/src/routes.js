@@ -17,7 +17,6 @@ export const Routes = () => {
             <Route path="/blocks" component={Blocks}/>
             <Route path="/forms" component={Formulario}/>
             <Route path="/pricing" component={Pricing}/>
-            <Route path="/teste" component={Teste}/>
         </Switch>
     )
 }
