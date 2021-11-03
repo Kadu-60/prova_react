@@ -1,0 +1,12 @@
+.chart-grid__header {
+    background: none;
+    font-size: 20px;
+    color: var(--primary);
+    border-bottom: 1px solid #eee;
+}
+
+.chart-grid__footer {
+    background: none;
+    font-size: 16px;
+    border-top: 1px solid #eee;
+}

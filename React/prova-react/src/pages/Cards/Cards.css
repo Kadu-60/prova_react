@@ -1,0 +1,8 @@
+.cards__heading h3 {
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 600;
+    color: var(--primary);
+    margin: 0;
+    padding: 20px;
+}
