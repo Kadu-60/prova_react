@@ -1,0 +1,12 @@
+.border-primary-top {
+    border-top: 2px solid gray;
+}
+
+.number{
+    display: flex;
+    justify-content: end;
+}
+.stat-text{
+    display: flex;
+    justify-content: end;
+}
